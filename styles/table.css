@@ -1,0 +1,75 @@
+#table-section {
+    height: auto;
+    /* background-color: yellow; */
+    padding: 0px;
+    margin: 0px 40px 60px 40px;
+    font-size: 1rem;
+   
+}
+
+#table-section h1 {
+    padding: 80px 0px 20px 0;
+}
+
+.primary-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.primary-table th {
+    background-color: #009879;
+    color: white;
+}
+
+.primary-table,
+th,
+td {
+    text-align: left;
+    padding: 20px;
+}
+
+
+.primary-table thead tr th,
+.primary-table tbody tr td {
+    border-bottom: 6px solid rgba(128, 128, 128,.4);
+    /* border-left: 1px solid rgba(128, 128, 128,.7); */
+}
+
+.primary-table tbody tr td{
+    border-left: 1px solid rgba(128, 128, 128,.5);
+}
+.primary-table>tbody>tr:nth-child(odd){
+    background-color: rgba(251, 240, 240, 0.626);
+}
+.primary-table>tbody>tr:nth-child(even){
+    background-color:  rgba(251, 240, 240, 0.984);
+}
+.primary-table tbody>tr:hover{
+    background-color: rgba(128, 128, 128,.5);
+    color:rgba(36, 23, 92, 0.8);
+    font-size: 1.02rem;
+    cursor:pointer;
+}
+
+
+
+.primary-table tbody .secondary-table caption {
+      text-align: left;
+      margin-bottom: 10px;
+}
+.primary-table tbody .secondary-table caption a:hover{ 
+    font-size: 1.2rem;
+
+}
+ .primary-table tbody .secondary-table tr td{
+    /* text-align: left; */
+    border: 1px solid grey;
+    text-align: left;
+   
+}
+.primary-table tbody .secondary-table tr td:hover{
+    background-color: rgba(232, 227, 227, 0.56);
+}

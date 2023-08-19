@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/table.css">
+    <link rel="stylesheet" href="./styles/Register.css">
+    <style>
+        /* general setting */
+
+        body {
+            width: 100%;
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                Library System
+            </div>
+            <ul>
+                <li><a class="books" href="#table-section">Books</a></li>
+                <li><a class="register" href="#registration-section">Register</a></li>
+                <li>Contact Us</li>
+                <li>Logout</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="table-section">
+
+            <table class="primary-table">
+                <h1>Books</h1>
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <table class="secondary-table">
+                                <caption><a href="">Book Title 1</a></caption>
+                                <tr>
+                                    <td>Publication Date: 2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count: 250</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:127-890397932</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Author Name1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <table class="secondary-table">
+                                <caption><a href="">Book Title 1</a></caption>
+                                <tr>
+                                    <td>Publication Date: 2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count: 250</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:127-890397932</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Author Name1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <table class="secondary-table">
+                                <caption><a href="">Book Title 1</a></caption>
+                                <tr>
+                                    <td>Publication Date: 2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count: 250</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:127-890397932</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Author Name1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <table class="secondary-table">
+                                <caption><a href="">Book Title 1</a></caption>
+                                <tr>
+                                    <td>Publication Date: 2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count: 250</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:127-890397932</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Author Name1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <table class="secondary-table">
+                                <caption><a href="">Book Title 1</a></caption>
+                                <tr>
+                                    <td>Publication Date: 2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count: 250</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:127-890397932</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Author Name1</td>
+                        <td>Genre 1</td>
+                        <td>Not Available</td>
+                    </tr>
+
+
+
+                </tbody>
+            </table>
+        </section>
+
+
+        <section id="registration-section">
+            <h1>Register</h1><br><br>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <br><br>
+                <form action="#" method="post">
+
+                    <Label for="firstName">First Name:</Label><br><br>
+                    <input type="text" id="firstName" placeholder="enter your first name here" name="firstName"
+                        required><br><br>
+
+                    <Label for="lastName">Last Name:</Label><br><br>
+                    <input type="text" id="lastName" name="lastName" placeholder="enter your last name here"
+                        required><br><br>
+
+
+                    <Label for="dob">Date Of Birth:</Label><br><br>
+                    <input type="date" id="dob" name="DOB" required><br><br>
+
+                    <label for="age">Age:</label><br><br>
+                    <input type="number" id="age" name="age" placeholder="your age" required min="5" max="100"><br><br>
+
+                    <label for="email">Email:</label><br><br>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.con" required><br><br>
+
+                    <label for="password">Password: </label><br><br>
+                    <input type="password" name="password" id="password" required placeholder="your secret"><br><br>
+
+                    <label for="confirm-password">Confirm Password: </label><br><br>
+                    <input type="password" name="confirm-password" id="confirm-password" required
+                        placeholder="confirm your secret"><br><br>
+
+                    <button type="submit">Register</button>
+
+
+                </form>
+            </fieldset>
+
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

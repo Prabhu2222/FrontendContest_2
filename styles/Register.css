@@ -1,0 +1,51 @@
+#registration-section{
+    height: auto;
+    padding: 10px;
+    margin: 0px 40px 60px 40px;
+    background-image: linear-gradient(to right,rgb(181, 181, 181),white);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px grey;
+}
+#registration-section h1,legend,label,input,button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2.5rem;
+}
+fieldset{
+    padding:20px;
+    border:none;
+    box-shadow: 0px 0px 6px grey;
+}
+input,button{
+    width:100%;
+}
+button{
+    margin-top: 20px;
+    padding:10px;
+    border:none;
+    border-radius: 24px;
+    background-color: rgb(61, 104, 212);
+    color:white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px  rgb(61, 104, 212);
+}
+button:hover{
+    background-color: rgba(15, 84, 212, 0.762);
+}
+button:active{
+   color:rgba(255, 255, 255, 0.751);
+ 
+}
+input{
+    height:60px;
+    padding:20px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0px 2px 5px rgb(133, 129, 129);
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color:rgb(194, 188, 188);
+}
